@@ -6,7 +6,14 @@
   "type": "javascript",
   "repository": "https://github.com/glangzh/eventbus-cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --env.NODE_ENV=common --progress --watch",
+    "start": "webpack-dev-server --env.NODE_ENV=dev --progress --watch",
+    "serve": "webpack-dev-server --env.NODE_ENV=development --progress --watch",
+    "dev": "webpack-dev-server --open --env.NODE_ENV=development --progress --watch --hot --inline",
+    "common": "webpack --config scripts/webpack.common.js",
+    "build": "webpack --env.NODE_ENV=common",
+    "build:prod": "webpack --env.NODE_ENV=production"
   },
   "keywords": [
     "eventbus-cjs",
