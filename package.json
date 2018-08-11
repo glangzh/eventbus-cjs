@@ -1,15 +1,15 @@
 {
-  "name": "eventbus-js",
-  "version": "1.0.2",
+  "name": "eventbus-cjs",
+  "version": "1.0.0",
   "description": "基于JavaScript装饰器（Decorator）实现的通信库, 支持Vue / React等常用框架",
   "main": "index.js",
   "type": "javascript",
-  "repository": "https://github.com/glangzh/eventbus-js",
+  "repository": "https://github.com/glangzh/eventbus-cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "eventbus-js",
+    "eventbus-cjs",
     "eventbus.js",
     "eventbus",
     "event",
@@ -43,9 +43,9 @@
     "events": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/glangzh/eventbus-js/issues"
+    "url": "https://github.com/glangzh/eventbus-cjs/issues"
   },
-  "homepage": "https://github.com/glangzh/eventbus-js",
+  "homepage": "https://github.com/glangzh/eventbus-cjs",
   "author": "zhaofg",
   "license": "MIT"
 }

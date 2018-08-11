@@ -1,13 +1,13 @@
-# eventbus-js
+# eventbus-cjs
 
-> **eventbus-js** 是一个基于JavaScript装饰器（Decorator）实现的通信库, 支持Vue / React等常用框架, 支持node.js
- [![tests](https://travis-ci.org/glangzh/eventbus-js.svg?branch=master)](http://travis-ci.org/glangzh/eventbus-js)
- [![npm](https://img.shields.io/npm/v/eventbus-js.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-js) [![npm](https://img.shields.io/npm/dt/eventbus-js.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-js) [![npm](https://img.shields.io/npm/l/eventbus-js.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-js)
+> **eventbus-cjs** 是一个基于JavaScript装饰器（Decorator）实现的通信库, 支持Vue / React等常用框架, 支持node.js
+ [![tests](https://travis-ci.org/glangzh/eventbus-cjs.svg?branch=master)](http://travis-ci.org/glangzh/eventbus-cjs)
+ [![npm](https://img.shields.io/npm/v/eventbus-cjs.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-cjs) [![npm](https://img.shields.io/npm/dt/eventbus-cjs.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-cjs) [![npm](https://img.shields.io/npm/l/eventbus-cjs.svg?style=flat-square)](https://www.npmjs.com/package/eventbus-cjs)
 
 ## 使用方法
 **1. 安装**
 ```sh
-npm i eventbus-js --save
+npm i eventbus-cjs --save
 ```
 **Babel 转码器的支持**
 
@@ -36,9 +36,9 @@ npm run eject
 ```
 **vue-cli 3.x 以默认支持 Decorator。**
 
-**2. 引入 eventbus-js**
+**2. 引入 eventbus-cjs**
 ```js
-import { on, once, emit } from 'eventbus-js';
+import { on, once, emit } from 'eventbus-cjs';
 ```
 
 ## 修饰器
